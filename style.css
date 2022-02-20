@@ -1,0 +1,97 @@
+body{
+    font-family: 'Shizuru', cursive;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+}
+
+#btn{
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+    margin-top: 15px;    
+    background-image: linear-gradient(to right, #ff6e7f 0%, #bfe9ff  51%, #ff6e7f  100%);
+    padding: 10px 25px;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+}
+#btn:hover {
+       background-position: right center; /* change the direction of the change here */
+       color: #fff;
+       text-decoration: none;
+     }
+
+
+
+#hard-btn {
+background-image: linear-gradient(to right, #AA076B 0%, #61045F  51%, #AA076B  100%);
+font-size: 30px;
+padding: 9px 20px;
+text-transform: uppercase;
+transition: 0.5s;
+background-size: 200% auto;
+color: white;            
+box-shadow: 0 0 20px #eee;
+border-radius: 10px;
+cursor: pointer;
+margin-left: 15px;
+}
+
+#hard-btn:hover {
+background-position: right center; /* change the direction of the change here */
+color: #fff;
+text-decoration: none;
+
+}
+
+
+     
+h1,h2{
+    margin: 5px;
+    color: #EBF2E8;
+}
+
+.container{
+    border-radius: 7px;
+    box-shadow: 0 0 15px black;
+    text-align: center;
+    padding: 20px;
+    margin-top: 15px;
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    height:400px;
+    margin: 20px auto 0;
+    background-color: rgb(236, 240, 241);
+    border-radius: 2%;
+}
+
+.square{
+    height:20px;
+    width: 20px;
+}
+
+.snake{
+    background: #544a7d;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ffd452, #544a7d);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ffd452, #544a7d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 45%;
+    border: none;
+}
+
+.apple{
+    background: #b92b27;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #1565C0, #b92b27);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #1565C0, #b92b27); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 45%;
+}
