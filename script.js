@@ -26,7 +26,7 @@ function move(){
         (snake[0] % width === width - 1 && direction === 1)||
         (snake[0] + width >= width*width  && direction == width)||
         (snake[0] - width < 0 && direction === -width) ||
-        (snake.includes(snake[0]) 
+        (squares[snake[0]+direction].classList.contains("snake"))
         ){
         score.innerHTML = `Game Over with "${scoreDisp}" points`
         if(parseInt(localStorage.getItem("score")) < scoreDisp){
