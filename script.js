@@ -221,6 +221,7 @@ function createTable(){
 btn.addEventListener("click", start)
 
 hardBtn.addEventListener("click", startHard)
+<<<<<<< HEAD
 
 
 
@@ -271,3 +272,5 @@ document.addEventListener("keydown", (e) => {
     }
 
 })
+=======
+>>>>>>> 41c64e563f1409c02b0677d5047cf9257045078d
