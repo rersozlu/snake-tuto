@@ -246,24 +246,17 @@ document.addEventListener("keydown", (e) => {
 
 document.addEventListener("keydown", (e) => {
     if(movementReady){
-        if(e.key === "ArrowRight"){
-            if(direction != -1){
-                direction = 1
-            }
-    
-        }else if(e.key === "ArrowLeft"){
-            if(direction != 1){
-                direction = -1
-            }
+        if(e.key === "ArrowRight" && direction != -1){
+            direction = 1
             
-        }else if(e.key==="ArrowDown"){
-            if(direction != -width){
-                direction = width
-            }
-        }else if(e.key ==="ArrowUp"){
-            if(direction != width){
-                direction = -width
-            }
+        }else if(e.key === "ArrowLeft"  && direction != 1){
+            direction = -1
+
+        }else if(e.key==="ArrowDown" && direction != -width){
+            direction = width
+
+        }else if(e.key ==="ArrowUp" && direction != width){
+            direction = -width
         }
         movementReady = false
     }
