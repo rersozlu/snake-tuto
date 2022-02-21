@@ -16,7 +16,7 @@ body{
     transition: 0.5s;
     background-size: 200% auto;
     color: white;            
-    box-shadow: 0 0 20px #eee;
+    box-shadow: 0 0 10px #eee;
     border-radius: 10px;
 }
 #btn:hover {
@@ -35,7 +35,7 @@ text-transform: uppercase;
 transition: 0.5s;
 background-size: 200% auto;
 color: white;            
-box-shadow: 0 0 20px #eee;
+box-shadow: 0 0 10px #eee;
 border-radius: 10px;
 cursor: pointer;
 margin-left: 15px;
@@ -49,6 +49,31 @@ text-decoration: none;
 }
 
 
+#help {
+    background-image: linear-gradient(to right, #232526 0%, #414345  51%, #232526  100%);
+    margin: 10px;
+    padding: 5px 10px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+}
+
+
+#help:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
+
+
+
      
 h1,h2{
     margin: 5px;
@@ -56,6 +81,7 @@ h1,h2{
 }
 
 .container{
+    position: relative;
     border-radius: 7px;
     box-shadow: 0 0 15px black;
     text-align: center;
@@ -64,6 +90,7 @@ h1,h2{
     background: #0F2027;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
+    max-width: 500px;
 }
 
 .grid{
@@ -95,3 +122,33 @@ h1,h2{
     background: linear-gradient(to right, #1565C0, #b92b27); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     border-radius: 45%;
 }
+
+.modal{
+    
+    display: none;
+    background-color: wheat;
+    color: black;
+    border-radius: 7px;
+    position: absolute;
+    left:0;
+}
+.modal p{
+    
+    font-family: 'Courier New', Courier, monospace;
+    margin: 10px auto;
+}
+.modal h2,h4{
+    color: black;
+    font-weight: bold;
+    margin: 10px auto;
+}
+
+.ammo{
+    border-radius: 50%;
+}
+a{
+    text-decoration: none;
+}
+a:visited{
+    color:blue;
+  }
