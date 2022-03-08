@@ -233,7 +233,7 @@ helpBtn.addEventListener("click", ()=>{
 
 
 document.addEventListener("keydown", (e) => {
-    if(e.key === "f" && mode === "hard" && ammoReady){
+    if(e.key === "n" && mode === "hard" && ammoReady){
         ammoDirection = JSON.parse(JSON.stringify(direction))
         ammo = JSON.parse(JSON.stringify(snake[0]+ammoDirection))
         clearInterval(ammoTimer)
@@ -262,3 +262,5 @@ document.addEventListener("keydown", (e) => {
     }
 
 })
+
+

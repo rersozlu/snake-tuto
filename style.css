@@ -1,6 +1,7 @@
 body{
     font-family: 'Shizuru', cursive;
     display: flex;
+    
     justify-content: center;
     font-size: 15px;
 }
@@ -162,3 +163,4 @@ a:visited{
     right: 0;
     margin-right: 5px;
 }
+
